@@ -1,0 +1,51 @@
+.web-sayt-body {
+    background-color: rgb(238, 143, 143);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-heading {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.service-heading {
+    margin: 0;
+    color: black;
+}
+
+.service-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.service-info-list {
+    color: pink;
+    font-size: medium;
+}
+
+.service-info-field {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
